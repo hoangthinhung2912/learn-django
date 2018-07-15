@@ -23,6 +23,7 @@ PUBLISH_CHOICES = [
         ('draft', 'Draft'),
         ('publish', 'Publish'),
         ('private', 'Private'),
+    
     ]
 
 class PostModelQuerySet(models.query.QuerySet):
